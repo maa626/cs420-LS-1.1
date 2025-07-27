@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "tsx TAG.ts",
+    "dev": "tsx watch TAG.ts"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.49",
+    "@langchain/core": "^0.3.66",
+    "@langchain/groq": "^0.2.3",
+    "@langchain/langgraph": "^0.3.11",
+    "@langchain/openai": "^0.6.2",
+    "@langchain/textsplitters": "^0.1.0",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.0",
+    "langchain": "^0.3.30",
+    "pdf-parse": "^1.1.1",
+    "tsx": "^4.20.3",
+    "zod": "^3.25.76"
+  }
+}
